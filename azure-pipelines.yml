@@ -94,4 +94,3 @@ stages:
               azureSubscription: 'tail'
               appName: '$(WebAppNameDev)'
               package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip'
-              appType: webApp
